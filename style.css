@@ -32,10 +32,15 @@ span{
     font-size: 14px;
     margin-right: auto;
     opacity: 0;
+    transition: opacity 300ms;
 }
 .container{
     display: flex;
     align-items: center;
     gap: 4px;
     margin-top: 8px;
+}
+
+.appear{
+    opacity: 1;
 }
